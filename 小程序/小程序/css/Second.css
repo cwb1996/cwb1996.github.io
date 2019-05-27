@@ -1,0 +1,48 @@
+html{
+	font-size: 100px;
+}
+body{
+	/* font-size: 100px; */
+}
+@media screen and (min-width:768px) {
+	html {
+		font-size: 200px;
+	}
+	
+	body {
+		font-size: 200px;
+	}
+}
+.wrapper{
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+.wrapper b{
+			padding-top: 0.16rem;
+			padding-bottom: 0.15rem;
+			font-size: 0.18rem;
+		}
+.wrapper .top img{
+			width: 100%;
+		}
+.wrapper .top .fr{
+	width: 40%;
+	margin-right: .25rem;
+}
+.wrapper .top .fl{
+	width: 40%;
+	margin-left: .25rem;
+}
+.wrapper .top img{
+	margin-top: .15rem;
+}
+.footer img{
+	margin-top: .3rem;
+	margin-left: .5rem;
+	width: 70%;
+}
+.foot a img{
+	width: 100%;
+	padding-top: .15rem;
+}
