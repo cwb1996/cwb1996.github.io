@@ -1,0 +1,52 @@
+html {
+	font-size: 100px;
+}
+
+body {
+	font-size: 100px;
+}
+@media screen and (min-width:768px) {
+	html {
+		font-size: 200px;
+	}
+	
+	body {
+		font-size: 200px;
+	}
+	.second .fl ul li{
+		font-size: .16rem;
+	}
+	.second .fr ul li{
+		font-size: .16rem;
+	}
+	.wrapper .first{
+		font-size: .14rem;
+	}
+}
+.wrapper {
+	margin-top: .2rem;
+	text-align: center;
+}
+
+.wrapper .title b {
+	padding-top: 0.4rem;
+	margin-bottom: 0.16rem;
+	font-size: 0.18rem;
+}
+.first{
+	text-align: center;
+	border-radius: .1rem;
+	width: 90%;
+	border: 1px solid #D3D3D3;
+	box-Shadow:1px 1px 1px 1px gray;
+}
+.second{
+	text-align: center;
+	border-radius: .1rem;
+	width: 90%;
+	border: 1px solid #D3D3D3;
+	box-Shadow:1px 1px 1px 1px gray;
+}
+.second ul li{
+	margin: .1rem .1rem;
+}
